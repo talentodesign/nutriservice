@@ -26,7 +26,6 @@
       <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>javascripts/boot_modal/css/bootstrap.css" media="all">
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/boot_modal/js/bootstrap.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.linkify-1.0.js"></script>
-      <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.jtwitter.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/jquery.cycle.all.js"></script>
       <script type="text/javascript" src="<?php servidor(); ?>javascripts/java.js"></script>
     <!--[if lt IE 7 ]> <body class="ie6"> <![endif]-->
