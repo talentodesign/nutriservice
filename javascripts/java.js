@@ -17,6 +17,12 @@ $(document).ready(function(){
 		$(this).attr('src', hov2);
 		
 		});
+		
+	/*---------------TWITTER-------------------*/
+
+	$("#twits").tweet();
+		
+		
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
 			$("#contato_enviando p").html('<center><img src="images/loading2.gif" alt=""></center>');
