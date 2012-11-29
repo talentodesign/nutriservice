@@ -26,6 +26,10 @@ function servidor(){
 		echo "http://".$core_servidor."/".$core_pasta."/";
 		}
 	else{
+		if($_SERVER['SERVER_NAME']=="talentodesign"){
+			echo "http://".$core_servidor."/".$core_pasta."";
+			}
+		else
 		echo "http://".$core_servidor."/";
 		}
 	}
