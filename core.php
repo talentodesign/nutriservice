@@ -26,7 +26,7 @@ function servidor(){
 		echo "http://".$core_servidor."/".$core_pasta."/";
 		}
 	else{
-		if($_SERVER['SERVER_NAME']=="talentodesign.com.br"){
+		if($_SERVER['SERVER_NAME']=="talentodesign.com.br" || $_SERVER['SERVER_NAME']=="www.talentodesign.com.br" ){
 			echo "http://".$core_servidor."/".$core_pasta."/";
 			}
 		else
