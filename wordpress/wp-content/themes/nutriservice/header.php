@@ -3,20 +3,33 @@
 <head>
     <title>NutriService</title>
     <link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/style.css" type="text/css" />
-    <!-- <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/javascripts/boot_modal/css/bootstrap.css" media="all">
+    <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/javascripts/boot_modal/css/bootstrap.css" media="all">
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery-1.7.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/boot_modal/js/bootstrap.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.tweet.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.linkify-1.0.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.cycle.all.js"></script>
-    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/java.js"></script>  -->
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.cycle.all.js"></script> 
+    <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/java.js"></script> 
+
 </head>
-
 <body>
-
-    <div id="topo" class="centraliza">
-
-
+    <div id="header">
+        <div id="logo" class="centraliza">
+            <img src="<?php bloginfo('template_directory'); ?>/images/logo.png" alt="" />
+        </div> 
+        <div id="menu" class="centraliza">  
+            <div id="menu-topo">
+                <ul>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/institucional_off.png" alt="" class="botao" /></a></li>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/oquefazemos_off.png" alt="" class="botao" /></a></li>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/bemestar_off.png" alt="" class="botao" /></a></li>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/estruturadeapoio_off.png" alt="" class="botao" /></a></li>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/noticias_off.png" alt="" class="botao" /></a></li>
+                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/faleconosco_off.png" alt="" class="botao" /></a></li>
+                </ul>
+            </div>
+        </div>
     </div>
+
+
 
 
 

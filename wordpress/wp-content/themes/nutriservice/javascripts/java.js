@@ -16,12 +16,7 @@ $(document).ready(function(){
 		var hov2 = end2.replace('_off.','_on.');
 		$(this).attr('src', hov2);
 		
-		});
-		
-	/*---------------TWITTER-------------------*/
-
-	$("#twits").tweet();
-		
+		});		
 		
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
@@ -57,9 +52,8 @@ $(document).ready(function(){
 				});
 		}
 		return false;
-		});
-	
+		});			
 	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slider").cycle({fx:"fade"});
+	$("#slide").cycle({fx:"fade"});
 	
 });

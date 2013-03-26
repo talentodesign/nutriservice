@@ -20,11 +20,41 @@ body .separator {
   clear: both;
 }
 /* HEADER */
-/* TOPO */
-#topo {
-  background: url(../nutriservice/images/bg_topo.png);
-  width: 1380px;
-  height: 500px;
+#header {
+  background: url(../nutriservice/images/bg_top.png) center;
+  height: 600px;
+}
+#header #logo img {
+  float: left;
+  margin-left: 300px;
+  margin-top: 30px;
+}
+#header #menu #menu-topo {
+  float: left;
+  margin-top: 50px;
+}
+#header #menu #menu-topo ul {
+  list-style-type: none;
+}
+#header #menu #menu-topo ul li {
+  display: inline;
+  margin-left: 50px;
 }
 /* FOOTER */
-/* CONTEUDO */
+#footer {
+  background-color: #05a14b;
+  height: 100px;
+}
+#footer #al_footer #texto_footer {
+  float: left;
+  text-align: center;
+  color: #fff;
+}
+/* HOME */
+#content #home_slider {
+  margin-top: -220px;
+}
+#content #area_principal {
+  background: url(../nutriservice/images/bg_principal.png) repeat-x;
+  height: 950px;
+}
