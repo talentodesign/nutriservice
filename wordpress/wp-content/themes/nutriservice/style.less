@@ -2,6 +2,10 @@
 @import url("reset.css");
 /* End of import hide */
 /* GERAL */
+*{
+    padding: 0;
+    margin: 0;
+}
 body{
     .centraliza{
     	width:1000px;
@@ -45,8 +49,7 @@ body{
                 }
             }
         }        
-    }
-  
+    }  
 }
 
 
@@ -64,14 +67,45 @@ body{
 }
 /* HOME */
 #content{   
-    #home_slider{
-        margin-top: -220px;
+    background: url(../nutriservice/images/bg_principal.png) repeat-x;
+    #area_info{
+        height: 470px;
+        #home_slider{        
+            #slide{
+                float: left;
+                margin-top:-250px;
+            }
+        }
+        #oque_fazemos{
+            float: left;
+            margin-top: 10px;
+        }
+
+        #dicas{
+            float: left;
+            margin-top: 10px;
+            margin-left: 70px;
+        }
+        #fala-conosco{
+            float: right;
+            margin-top: 10px;
+            margin-left: 50px;
+        }
     }
-    #area_principal{
-        background: url(../nutriservice/images/bg_principal.png) repeat-x;
-        height: 950px;
-
-
+    #nutri_news{
+        background: url(../nutriservice/images/bg_nutri_news.png) repeat-x;
+        height: 340px;
+        #news{
+            #area_news{
+                .img_news{
+                float: left;
+                margin-top: 10px;
+            }
+                .titulo{
+                    margin-top: 10px;
+                    margin-left: 130px;
+                }                
+            }
+        }
     }
-
 }

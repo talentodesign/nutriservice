@@ -1,3 +1,4 @@
+<?php wp_footer(); ?>
     <div id="footer">
     	<div id="al_footer" class="centraliza">
     		<div id="texto_footer">

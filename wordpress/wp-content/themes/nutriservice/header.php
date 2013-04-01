@@ -8,6 +8,7 @@
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/boot_modal/js/bootstrap.js"></script>
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/jquery.cycle.all.js"></script> 
     <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/javascripts/java.js"></script> 
+    <?php wp_head(); ?>
 
 </head>
 <body>

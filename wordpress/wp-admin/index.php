@@ -2,6 +2,8 @@
 /**
  * Dashboard Administration Screen
  *
+ * @internal This file should be parseable by PHP4.
+ *
  * @package WordPress
  * @subpackage Administration
  */

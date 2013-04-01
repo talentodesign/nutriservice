@@ -2,6 +2,10 @@
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
 /* GERAL */
+* {
+  padding: 0;
+  margin: 0;
+}
 body .centraliza {
   width: 1000px;
   margin: 0 auto;
@@ -51,10 +55,39 @@ body .separator {
   color: #fff;
 }
 /* HOME */
-#content #home_slider {
-  margin-top: -220px;
-}
-#content #area_principal {
+#content {
   background: url(../nutriservice/images/bg_principal.png) repeat-x;
-  height: 950px;
+}
+#content #area_info {
+  height: 470px;
+}
+#content #area_info #home_slider #slide {
+  float: left;
+  margin-top: -250px;
+}
+#content #area_info #oque_fazemos {
+  float: left;
+  margin-top: 10px;
+}
+#content #area_info #dicas {
+  float: left;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+#content #area_info #fala-conosco {
+  float: right;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#content #nutri_news {
+  background: url(../nutriservice/images/bg_nutri_news.png) repeat-x;
+  height: 340px;
+}
+#content #nutri_news #news #area_news .img_news {
+  float: left;
+  margin-top: 10px;
+}
+#content #nutri_news #news #area_news .titulo {
+  margin-top: 10px;
+  margin-left: 130px;
 }
