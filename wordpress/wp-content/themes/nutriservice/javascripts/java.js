@@ -54,6 +54,6 @@ $(document).ready(function(){
 		return false;
 		});			
 	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slide").cycle({fx:"fade"});
+	$("#slide, #slide_clientes").cycle({fx:"fade"});
 	
 });
