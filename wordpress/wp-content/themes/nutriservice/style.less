@@ -54,6 +54,30 @@ body{
 
 
 /* FOOTER */
+
+#footer_area{
+    background: url(../nutriservice/images/bg_footer_menu.png) repeat-x;
+    height: 210px;
+    #footer_menu{
+        #institucional{
+            float: left;
+            margin-top: 10px;
+            .titulo_footer{
+                color: #05a14b;
+                font-weight: bold;
+                font-family: verdana;
+                font-size: 13px;
+            }
+            .sub_footer{
+                color: #05a14b;
+                font-family: verdana;
+                font-size: 13px;
+            }
+
+        }
+    }
+}
+
 #footer{
         background-color: #05a14b;
         height: 100px;
@@ -141,6 +165,44 @@ body{
                     margin-top: 52px;
                 }
             }
-        }
+
+            #onde_estamos{
+                float: right;
+                background: url(../nutriservice/images/onde-estamos.png) no-repeat;
+                height: 171px;
+                width: 270px;
+                margin-top: -170px;
+                margin-right: 370px;
+                img{
+                    margin-top: 55px;
+                }
+
+            }
+
+            #cont{
+                background: url(../nutriservice/images/contato.png) no-repeat;
+                float: left;
+                height: 170px;
+                width: 270px;
+                margin-top: -170px;
+                margin-left: 700px;
+                input[type=text]{                 
+                   border:2px solid;
+                   border-radius: 10px;
+                   outline:none;
+                   width:250px;
+                   height:25px;
+                   padding-left:15px;  
+                   margin-top: 110px; 
+                   background-color: #000000;                
+                }
+                #cont_bt{
+                    float: right;
+                    margin-right: 5px;
+                    margin-top: 2px;
+                }
+
+            }
+        }        
     }
 }

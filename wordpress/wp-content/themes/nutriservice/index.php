@@ -61,7 +61,7 @@
         <div id="info_content">
           <div id="info_home" class="centraliza">
             <div id="clientes">
-              <div id="slide">
+              <div id="slide_clientes">
                 <img src="<?php bloginfo('template_directory'); ?>/images/clientes/amafvbra.png" alt="">
                 <img src="<?php bloginfo('template_directory'); ?>/images/clientes/bandeirantes.png" alt="">
                 <img src="<?php bloginfo('template_directory'); ?>/images/clientes/esplanada.png" alt="">
@@ -74,6 +74,23 @@
                 <img src="<?php bloginfo('template_directory'); ?>/images/clientes/tbl-transportes.png" alt="">
               </div>
             </div>
+
+            <div id="onde_estamos">
+              <a href=""><img src="<?php bloginfo('template_directory'); ?>/images/onde.png" alt=""></a>
+            </div>
+
+            <div id="cont">
+              <div id="formulario">    
+               <form action="">                       
+                  <label for=""</label>
+                  <input type="text" name="" id="email">      
+                                   
+                  <input type="image" src="<?php bloginfo('template_directory'); ?>/images/enviar_off.png" alt="" class="botao" id="cont_bt">                    
+                </form>                                  
+              </div>   
+            </div>
+
+
           </div>          
         </div>
       </div>     

@@ -1,4 +1,17 @@
 <?php wp_footer(); ?>
+<div id="footer_area">
+	<div id="footer_menu" class="centraliza">
+		<div id="institucional">
+			<p class="titulo_footer">Institucional</p>
+			<a href=""><p class="sub_footer">- História</p></a>
+			<a href=""><p class="sub_footer">- Visão e Valores</p></a>
+			<a href=""><p class="sub_footer">- Nossos Númeross</p></a>
+			<a href=""><p class="sub_footer">- Clientes</p></a>
+			<a href=""><p class="sub_footer">- Segurança de Trabalho</p></a>
+
+		</div>
+	</div>	
+</div>
     <div id="footer">
     	<div id="al_footer" class="centraliza">
     		<div id="texto_footer">
