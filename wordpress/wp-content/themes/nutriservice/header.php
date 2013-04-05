@@ -20,7 +20,7 @@
             <div id="menu-topo">
                 <ul>
                     <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/institucional_off.png" alt="" class="botao" /></a></li>
-                    <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/oquefazemos_off.png" alt="" class="botao" /></a></li>
+                    <li><a href="<?php bloginfo('template_directory'); ?>/ambientacao.php"><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/oquefazemos_off.png" alt="" class="botao" /></a></li>
                     <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/bemestar_off.png" alt="" class="botao" /></a></li>
                     <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/estruturadeapoio_off.png" alt="" class="botao" /></a></li>
                     <li><a href=""><img src="<?php bloginfo('template_directory'); ?>/images/menu-topo/noticias_off.png" alt="" class="botao" /></a></li>

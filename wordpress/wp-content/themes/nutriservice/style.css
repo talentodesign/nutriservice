@@ -59,10 +59,116 @@ body .separator {
   font-family: verdana;
   font-size: 13px;
 }
-#footer_area #footer_menu #institucional .sub_footer {
+#footer_area #footer_menu #institucional ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #institucional ul li {
   color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #oquefazemos {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #oquefazemos .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
   font-family: verdana;
   font-size: 13px;
+}
+#footer_area #footer_menu #oquefazemos ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #oquefazemos ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #bemestar {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #bemestar .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #bemestar ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #bemestar ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #apoio {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #apoio .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #apoio ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #apoio ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #noticias {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #noticias .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #noticias ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #noticias ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #fale {
+  float: left;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #fale .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #fale ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #fale ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area .curta {
+  float: left;
+  margin-left: 300px;
+  margin-top: 15px;
+}
+#footer_area .face {
+  float: left;
+  margin-left: 20px;
+}
+#footer_area .botao {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
 }
 #footer {
   background-color: #05a14b;
@@ -70,8 +176,14 @@ body .separator {
 }
 #footer #al_footer #texto_footer {
   float: left;
+  margin-left: 180px;
+  margin-top: 40px;
   text-align: center;
   color: #fff;
+}
+#footer #al_footer .botao {
+  float: right;
+  margin-top: 50px;
 }
 /* HOME */
 #content {
