@@ -1,7 +1,4 @@
 <?php get_header(); ?>
-    <title>Título da Página</title>
-  </head>
-  <body>
     <div id="content">
       <div id="area_info" class="centraliza">
         <div id="home_slider" class="centraliza">        
