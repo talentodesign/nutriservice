@@ -16,12 +16,7 @@ $(document).ready(function(){
 		var hov2 = end2.replace('_off.','_on.');
 		$(this).attr('src', hov2);
 		
-		});
-		
-	/*---------------TWITTER-------------------*/
-
-	$("#twits").tweet();
-		
+		});		
 		
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
@@ -34,9 +29,10 @@ $(document).ready(function(){
 		var nome=$("#nome").val();
 		var email=$("#email").val();
 		var tel=$("#tel").val();
+		var curri=$("#curri").val();
 		var mens=$("#mens").val();
-		var dados="nome="+nome+"&email="+email+"&tel="+tel+"&mens="+mens;
-		if(nome =='' || email =='' || tel =='' || mens==''){
+		var dados="nome="+nome+"&email="+email+"&tel="+tel+"&curri="+curri+"&mens="+mens;
+		if(nome =='' || email =='' || tel =='' || curri=='' || mens==''){
 			$('#contato_vazio').modal("show");
 			}
 		else{
@@ -44,11 +40,11 @@ $(document).ready(function(){
 			$('#contato_enviando').modal("show");
 			$.ajax({
 				type: "POST",
-				url: "../mail_contato.php",
+				url: "mail_contato.php",
 				data: dados,
 				cache: false,
 				success: function(){
-					$("#contato_enviando p").html('<center><img src="../images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
+					$("#contato_enviando p").html('<center><img src="images/email-send-icon.png" alt=""></center>').find('center').hide().fadeIn("slow");
 					$("#contato_enviando h3").html('Mensagem Enviada');
 					$("input:text, textarea").val("");
 					setTimeout(some,2000);
@@ -57,9 +53,23 @@ $(document).ready(function(){
 				});
 		}
 		return false;
-		});
-	
+		});			
 	/* ------------ SLIDE JCYCLE ---------------------*/	
-	$("#slider").cycle({fx:"fade"});
-	
+	$("#slide, #slide_clientes").cycle({fx:"fade"});
+
+	$('.texto-receitas').jScrollPane();
+
+	/* CARREGAMENTO DAS PAGINAS */
+
+
+    /* $("#menu ul li a").click(function(){
+        pagina = $(this).attr('href')
+
+        $("#area-texto").load(pagina)
+        return false;
+    }) */
 });
+
+	
+
+

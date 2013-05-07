@@ -1,10 +1,13 @@
-/* CSS crunched with Crunch - http://crunchapp.net/ */
 @import url("reset.css");
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
 /* GERAL */
+* {
+  padding: 0;
+  margin: 0;
+}
 body .centraliza {
-  width: ;
+  width: 1000px;
   margin: 0 auto;
 }
 body a,
@@ -20,6 +23,1262 @@ body a:hover {
 body .separator {
   clear: both;
 }
+#slider #slide {
+  float: left;
+  margin-top: -250px;
+}
 /* HEADER */
+#header {
+  background: url(../images/bg_top.png) center;
+  height: 600px;
+}
+#header #logo img {
+  float: left;
+  margin-left: 330px;
+  margin-top: 30px;
+}
+#header #menu-top #menu-topo {
+  float: left;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+#header #menu-top #menu-topo ul {
+  list-style-type: none;
+}
+#header #menu-top #menu-topo ul li {
+  display: inline;
+  margin-left: 50px;
+}
 /* FOOTER */
-/* CONTEUDO */
+#footer_area {
+  background: url(../images/bg_footer_menu.png) repeat-x;
+  height: 210px;
+}
+#footer_area #footer_menu #institucional {
+  float: left;
+  margin-top: 25px;
+}
+#footer_area #footer_menu #institucional .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #institucional ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #institucional ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #oquefazemos {
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #oquefazemos .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #oquefazemos ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #oquefazemos ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #bemestar {
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #bemestar .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #bemestar ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #bemestar ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #apoio {
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #apoio .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #apoio ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #apoio ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #noticias {
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #noticias .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #noticias ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #noticias ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area #footer_menu #fale {
+  float: left;
+  margin-top: 25px;
+  margin-left: 40px;
+}
+#footer_area #footer_menu #fale .titulo_footer {
+  color: #05a14b;
+  font-weight: bold;
+  font-family: verdana;
+  font-size: 13px;
+}
+#footer_area #footer_menu #fale ul {
+  list-style-type: none;
+}
+#footer_area #footer_menu #fale ul li {
+  color: #05a14b;
+  margin-top: 5px;
+}
+#footer_area .curta {
+  float: left;
+  margin-top: 47px;
+  margin-left: 175px;
+}
+#footer_area .face {
+  float: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+#footer_area .botao {
+  float: left;
+  margin-left: 10px;
+  margin-top: 35px;
+}
+#footer {
+  background: url(../images/bg_footer_texto.png) repeat-x;
+  height: 100px;
+}
+#footer #al_footer #texto_footer {
+  float: left;
+  margin-left: 180px;
+  margin-top: 30px;
+  text-align: center;
+  color: #fff;
+}
+#footer #al_footer .botao {
+  float: right;
+  margin-top: 30px;
+}
+/* HOME */
+#content {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content #area_info {
+  height: 470px;
+}
+#content #area_info #home_slider #slide {
+  float: left;
+  margin-top: -250px;
+}
+#content #area_info #oque_fazemos {
+  float: left;
+  margin-top: 10px;
+}
+#content #area_info #dicas {
+  float: left;
+  margin-top: 10px;
+  margin-left: 70px;
+}
+#content #area_info #fala-conosco {
+  float: right;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#content #nutri_news {
+  background: url(../images/bg_nutri_news.png) repeat-x;
+  height: 340px;
+}
+#content #nutri_news #news #area_news .img_news {
+  float: left;
+  margin-top: 10px;
+}
+#content #nutri_news #news #area_news .titulo {
+  margin-top: 15px;
+  margin-left: 130px;
+}
+#content #nutri_news #news #area_news #area_noticias {
+  float: left;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+#content #nutri_news #news #area_news #area_noticias img {
+  width: 230px;
+  height: 100px;
+  border: 1px solid #c9c9c9;
+  padding: 6px;
+}
+#content #nutri_news #news #area_news #area_noticias #texto {
+  width: 230px;
+  text-align: justify;
+  font-size: 14px;
+}
+#content #nutri_news #news #area_news #area_noticias #texto .leia {
+  float: right;
+}
+#content #info_content {
+  background: url(../images/bg_home_info.png) repeat-x;
+  height: 215px;
+}
+#content #info_content #info_home #clientes {
+  background: url(../images/clientes.png) no-repeat;
+  width: 270px;
+  height: 170px;
+}
+#content #info_content #info_home #clientes img {
+  margin-top: 52px;
+}
+#content #info_content #info_home #onde_estamos {
+  float: right;
+  background: url(../images/onde-estamos.png) no-repeat;
+  height: 171px;
+  width: 270px;
+  margin-top: -170px;
+  margin-right: 370px;
+}
+#content #info_content #info_home #onde_estamos img {
+  margin-top: 55px;
+}
+#content #info_content #info_home #cont {
+  background: url(../images/contato.png) no-repeat;
+  float: left;
+  height: 170px;
+  width: 270px;
+  margin-top: -170px;
+  margin-left: 700px;
+}
+#content #info_content #info_home #cont input[type=text] {
+  border: 2px solid;
+  border-radius: 10px;
+  outline: none;
+  width: 250px;
+  height: 25px;
+  padding-left: 15px;
+  margin-top: 110px;
+  background-color: #000000;
+}
+#content #info_content #info_home #cont #cont_bt {
+  float: right;
+  margin-right: 5px;
+  margin-top: 2px;
+}
+/* INSTITUCIONAL */
+#content-institucional {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-institucional #area {
+  height: 700px;
+  background-color: #fff;
+}
+#content-institucional #area #menu {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-institucional #area #menu ul {
+  list-style-type: none;
+}
+#content-institucional #area #menu ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-institucional #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 0px;
+}
+#content-institucional #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+  margin-bottom: 12px;
+}
+#content-institucional #area #area-texto .volt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#content-institucional #area #area-texto .conteudo {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-institucional #area #area-texto .conteudo .logos {
+  width: 735px;
+  height: 300px;
+  float: left;
+  margin-left: 90px;
+  margin-top: -140px;
+}
+#content-institucional #area #area-texto .conteudo .logos ul {
+  list-style-type: none;
+}
+#content-institucional #area #area-texto .conteudo .logos ul li {
+  display: inline;
+  padding: 10px;
+}
+#content-institucional #area #area-texto .conteudo .logos ul li img {
+  border: 1px solid #dbdbdb;
+}
+#content-institucional #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+.mapa {
+  float: right;
+  margin-right: 17px;
+  margin-top: 50px;
+}
+.mapa img {
+  width: 425px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* O QUE FAZEMOS - ofertas-especiais */
+#content #area {
+  height: 900px;
+  background-color: #fff;
+}
+#content #area #menu-oquefazemos {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content #area #menu-oquefazemos ul {
+  list-style-type: none;
+}
+#content #area #menu-oquefazemos ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#content #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+}
+#content #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content #area #area-texto .conteudo {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content #area #area-texto .conteudo .conteiner {
+  float: left;
+}
+#content #area #area-texto .conteudo ul {
+  list-style-type: none;
+}
+#content #area #area-texto .conteudo ul .img {
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+#content #area #area-texto .conteudo ul .titulo {
+  float: left;
+  color: #05a14b;
+  margin-top: 30px;
+  padding-right: 210px;
+  padding-bottom: 16px;
+  width: 220px;
+}
+#content #area #area-texto .conteudo ul .texto {
+  margin-top: 30px;
+  color: #6d6e6d;
+  font-size: 12px;
+}
+#content #area #area-texto .conteudo ul .texto .sub {
+  color: #05a14b;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* O QUE FAZEMOS - TIPOS DE FORNECIMENTO */
+#content #area {
+  height: 900px;
+  background-color: #fff;
+}
+#content #area #menu-oquefazemos {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content #area #menu-oquefazemos ul {
+  list-style-type: none;
+}
+#content #area #menu-oquefazemos ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#content #area #area-texto-tipos {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+}
+#content #area #area-texto-tipos .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content #area #area-texto-tipos .conteudo {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content #area #area-texto-tipos .conteudo .conteiner {
+  float: left;
+}
+#content #area #area-texto-tipos .conteudo ul {
+  list-style-type: none;
+}
+#content #area #area-texto-tipos .conteudo ul .img {
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+#content #area #area-texto-tipos .conteudo ul .titulo {
+  float: left;
+  color: #05a14b;
+  margin-top: 30px;
+  padding-bottom: 16px;
+}
+#content #area #area-texto-tipos .conteudo ul .texto {
+  float: left;
+  width: 440px;
+  color: #6d6e6d;
+  font-size: 12px;
+}
+#content #area #area-texto-tipos .conteudo ul .texto .sub {
+  color: #05a14b;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* O QUE FAZEMOS - AMBIENTAÇÃO - EVENTOS TEMATICOS */
+#content #area {
+  height: 900px;
+  background-color: #fff;
+}
+#content #area #menu-oquefazemos {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content #area #menu-oquefazemos ul {
+  list-style-type: none;
+}
+#content #area #menu-oquefazemos ul li {
+  display: inline;
+  margin-left: 20px;
+}
+#content #area #area-texto-ambientacao {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+}
+#content #area #area-texto-ambientacao .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content #area #area-texto-ambientacao .conteudo {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content #area #area-texto-ambientacao .conteudo .conteiner {
+  float: left;
+}
+#content #area #area-texto-ambientacao .conteudo .conteiner img {
+  margin-top: 30px;
+}
+#content #area #area-texto-ambientacao .conteudo ul {
+  list-style-type: none;
+}
+#content #area #area-texto-ambientacao .conteudo ul .img {
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+#content #area #area-texto-ambientacao .conteudo ul .img-eventos {
+  float: left;
+  margin-left: 60px;
+  margin-top: 30px;
+  padding-right: 20px;
+  width: 290px;
+}
+#content #area #area-texto-ambientacao .conteudo ul .img-eventos .ampliar {
+  margin-left: 30px;
+}
+#content #area #area-texto-ambientacao .conteudo ul .titulo {
+  width: 440px;
+  float: left;
+  color: #05a14b;
+  margin-top: 55px;
+}
+#content #area #area-texto-ambientacao .conteudo ul .texto {
+  float: left;
+  color: #6d6e6d;
+  width: 400px;
+  height: 150px;
+  margin-top: 30px;
+}
+#content #area #area-texto-ambientacao .conteudo ul .texto .sub {
+  color: #05a14b;
+}
+#content #area #area-texto-ambientacao .conteudo ul .texto-eventos {
+  float: left;
+  color: #6d6e6d;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* BEM ESTAR */
+#content-bem-estar {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-bem-estar #area {
+  height: 980px;
+  background-color: #fff;
+}
+#content-bem-estar #area #menu {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-bem-estar #area #menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-bem-estar #area #menu ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-bem-estar #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+}
+#content-bem-estar #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content-bem-estar #area #area-texto .volt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#content-bem-estar #area #area-texto .conteudo {
+  color: #6d6e6d;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-bem-estar #area #area-texto .conteudo .images {
+  float: left;
+  width: 400px;
+  height: 700px;
+}
+#content-bem-estar #area #area-texto .conteudo .images .img-text-01 {
+  margin-left: 30px;
+  margin-top: 40px;
+}
+#content-bem-estar #area #area-texto .conteudo .images .img-text-02 {
+  margin-top: 100px;
+  margin-left: 30px;
+}
+#content-bem-estar #area #area-texto .conteudo .texto {
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 80px;
+  margin-top: 60px;
+  text-align: justify;
+  font-size: 12px;
+}
+#content-bem-estar #area #area-texto .conteudo .texto .text-01 {
+  margin-top: 50px;
+}
+#content-bem-estar #area #area-texto .conteudo .texto .text-02 {
+  margin-top: 220px;
+}
+#content-bem-estar #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* BEM ESTAR DICAS */
+#content-bem-estar {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-bem-estar #area {
+  height: 980px;
+  background-color: #fff;
+}
+#content-bem-estar #area #menu-bem-estar {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-bem-estar #area #menu-bem-estar ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-bem-estar #area #menu-bem-estar ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-bem-estar #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 0px;
+  margin-bottom: -45px;
+}
+#content-bem-estar #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content-bem-estar #area #area-texto .volt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .images {
+  float: left;
+  width: 215px;
+  height: 215px;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .images .img-text-01 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .texto {
+  background: url(../images/bem-estar/dicas/bg_dicas.png) no-repeat;
+  float: left;
+  width: 660px;
+  height: 183px;
+  margin-left: 5px;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 12px;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .texto .titulo {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #05a14b;
+  font-size: 15px;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .texto .text-01 {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 60px;
+  font-size: 12px;
+  color: #589175;
+}
+#content-bem-estar #area #area-texto .conteudo-dicas .texto .voltar {
+  float: right;
+  margin-right: 50px;
+}
+#content-bem-estar #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* BEM ESTAR DICAS RECEITAS */
+#content-receitas {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-receitas #area {
+  height: 920px;
+  background-color: #fff;
+}
+#content-receitas #area #menu-receitas {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-receitas #area #menu-receitas ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-receitas #area #menu-receitas ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-receitas #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: -70px;
+}
+#content-receitas #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content-receitas #area #area-texto .volt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#content-receitas #area #area-texto .conteudo-receitas {
+  color: #6d6e6d;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-receitas #area #area-texto .conteudo-receitas .images {
+  float: left;
+  width: 215px;
+  height: 215px;
+}
+#content-receitas #area #area-texto .conteudo-receitas .images .img-text-01 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#content-receitas #area #area-texto .conteudo-receitas .texto-receitas {
+  background: url(../images/bem-estar/bg_receitas.png) no-repeat;
+  float: left;
+  width: 700px;
+  height: 645px;
+  margin-left: 5px;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 12px;
+}
+#content-receitas #area #area-texto .conteudo-receitas .texto-receitas .titulo {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #05a14b;
+  font-size: 15px;
+}
+#content-receitas #area #area-texto .conteudo-receitas .texto-receitas .text-01 {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 60px;
+  font-size: 12px;
+  color: #589175;
+}
+#content-receitas #area #area-texto .conteudo-receitas .texto-receitas .voltar {
+  float: right;
+  margin-right: 50px;
+}
+#content-receitas #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* ESTRUTURA DE APOIO */
+#content-estrutura {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-estrutura #area {
+  height: 700px;
+  background-color: #fff;
+}
+#content-estrutura #area #menu {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-estrutura #area #menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-estrutura #area #menu ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-estrutura #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: -70px;
+}
+#content-estrutura #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content-estrutura #area #area-texto .conteudo {
+  color: #6d6e6d;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-estrutura #area #area-texto .conteudo .images {
+  float: left;
+  margin-left: 130px;
+}
+#content-estrutura #area #area-texto .conteudo .images-seguranca {
+  float: right;
+  margin-top: 123px;
+  margin-left: 30px;
+}
+#content-estrutura #area #area-texto .conteudo .texto {
+  float: right;
+  width: 390px;
+  height: 250px;
+  margin-left: 50px;
+  margin-top: 90px;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo .texto-seguranca {
+  float: left;
+  width: 400px;
+  height: 250px;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo .texto-seguranca .title {
+  color: #05a14b;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo .texto-ti {
+  float: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo .texto-ti .title {
+  color: #05a14b;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo .voltar {
+  float: right;
+  margin-right: 50px;
+}
+#content-estrutura #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/*ESTRUTURA DE APOIO */
+#content-estrutura {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-estrutura #area {
+  height: 600px;
+  background-color: #fff;
+}
+#content-estrutura #area #menu-bem-estar {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-estrutura #area #menu-bem-estar ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-estrutura #area #menu-bem-estar ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-estrutura #area #area-texto {
+  padding: 30px;
+  float: left;
+  margin-top: 30px;
+  margin-bottom: -70px;
+}
+#content-estrutura #area #area-texto .title {
+  color: #05a14b;
+  font-size: 25px;
+  font-family: verdana;
+}
+#content-estrutura #area #area-texto .volt {
+  float: left;
+  margin-top: 100px;
+  margin-left: 50px;
+}
+#content-estrutura #area #area-texto .conteudo-dicas {
+  color: #9a9999;
+  font-size: 15px;
+  font-family: verdana;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .images {
+  float: left;
+  width: 215px;
+  height: 215px;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .images .img-text-01 {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .texto {
+  background: url(../images/bem-estar/dicas/bg_dicas.png) no-repeat;
+  float: left;
+  width: 700px;
+  height: 183px;
+  margin-left: 5px;
+  margin-top: 30px;
+  text-align: justify;
+  font-size: 12px;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .texto .titulo {
+  float: left;
+  margin-left: 40px;
+  margin-top: 20px;
+  color: #05a14b;
+  font-size: 15px;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .texto .text-01 {
+  margin-left: 40px;
+  margin-right: 20px;
+  margin-top: 60px;
+  font-size: 12px;
+  color: #589175;
+}
+#content-estrutura #area #area-texto .conteudo-dicas .texto .voltar {
+  float: right;
+  margin-right: 50px;
+}
+#content-estrutura #area #area-texto .next {
+  float: right;
+  margin-top: -50px;
+  margin-right: -40px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* NOTICIAS */
+#content-noticias {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-noticias #area {
+  height: 620px;
+  background-color: #fff;
+}
+#content-noticias #area #menu {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-noticias #area #menu ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-noticias #area #menu ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-noticias #area #titulos-noticias {
+  float: left;
+  width: 180px;
+  margin-left: 40px;
+  margin-top: 50px;
+}
+#content-noticias #area #titulos-noticias .data {
+  font-size: 17px;
+  color: #05a14b;
+}
+#content-noticias #area #titulos-noticias .prev {
+  color: #05a14b;
+  font-size: 12px;
+}
+#content-noticias #area #titulos-noticias hr {
+  color: #ddf4e9;
+}
+#content-noticias #area #conteudo {
+  float: left;
+  background: url(../images/noticias/bg_area_noticias.png) repeat-x;
+  width: 750px;
+  height: 443px;
+  margin-top: 62px;
+}
+#content-noticias #area #conteudo .titulo {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#content-noticias #area #conteudo .image {
+  text-align: center;
+  margin-top: 10px;
+}
+#content-noticias #area #conteudo .texto {
+  margin-top: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 12px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}
+/* CONTATO */
+#content-contato {
+  background: url(../images/bg_principal.png) repeat-x;
+}
+#content-contato #area {
+  height: 650px;
+  background-color: #fff;
+}
+#content-contato #area #menu-contato {
+  float: left;
+  margin-top: -1px;
+  background-color: #05a14b;
+  height: 31px;
+  width: 1000px;
+}
+#content-contato #area #menu-contato ul {
+  list-style-type: none;
+  text-align: center;
+}
+#content-contato #area #menu-contato ul li {
+  display: inline;
+  margin-left: 40px;
+}
+#content-contato #area-texto {
+  float: left;
+}
+#content-contato #area-texto .titulo {
+  color: #05a14b;
+  font-size: 25px;
+  margin-top: 50px;
+  margin-left: 20px;
+  float: left;
+}
+#content-contato #area-texto .conteudo {
+  float: left;
+  color: #6d6e6d;
+  font-size: 12px;
+  margin-left: 20px;
+  margin-top: 25px;
+  /*LOCALIZAÇÃO */
+
+  /* FIM LOCALIZAÇÃO */
+
+  /* TRABALHE CONOSCO */
+
+}
+#content-contato #area-texto .conteudo .sub {
+  color: #05a14b;
+}
+#content-contato #area-texto .conteudo .lista-1 {
+  float: left;
+  margin-top: 30px;
+}
+#content-contato #area-texto .conteudo .lista-2 {
+  float: left;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#content-contato #area-texto .conteudo .titulo-localizacao {
+  float: left;
+  margin-top: 110px;
+  margin-left: 20px;
+  color: #05a14b;
+  font-size: 12px;
+}
+#content-contato #area-texto .conteudo .mapa-localizacao {
+  float: left;
+  margin-left: -60px;
+  margin-top: 100px;
+}
+#content-contato #area-texto .conteudo .matriz {
+  float: left;
+  margin-top: 150px;
+  margin-left: -80px;
+  background: url(../images/contato/bg_matriz.png) no-repeat;
+  width: 220px;
+  height: 80px;
+  color: #fff;
+}
+#content-contato #area-texto .conteudo .matriz p {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+#content-contato #area-texto .conteudo .titulo-trabalhe {
+  float: left;
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #05a14b;
+  font-size: 25px;
+}
+#content-contato #area-texto .conteudo .texto {
+  float: left;
+  width: 465px;
+  margin-left: 30px;
+  margin-top: 30px;
+  font-size: 15px;
+}
+#content-contato #area-texto #formulario {
+  float: left;
+  width: 405px;
+  margin-top: 80px;
+  margin-left: 50px;
+}
+#content-contato #area-texto #formulario input[type=text] {
+  border: 1px solid #CCCBCB;
+  outline: none;
+  width: 360px;
+  height: 33px;
+  margin-bottom: 15px;
+  padding-left: 10px;
+}
+#content-contato #area-texto #formulario #curri {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: 1px solid #CCCBCB;
+  width: 370px;
+  height: 22px;
+}
+#content-contato #area-texto #formulario textarea {
+  border: 1px solid #CCCBCB;
+  outline: none;
+  width: 360px;
+  height: 100px;
+  margin-bottom: 0px;
+  padding-left: 13px;
+  padding-top: 10px;
+}
+#content-contato #area-texto #formulario #cont_bt {
+  margin-left: 150px;
+  margin-top: 5px;
+}
+#voltar {
+  height: 100px;
+}
+#voltar .link {
+  float: left;
+  margin-left: 450px;
+  margin-top: 40px;
+  color: #05a14b;
+}

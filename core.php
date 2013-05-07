@@ -2,15 +2,15 @@
 // ==================================== DADOS INICIAIS DO SITE ==================================== 
 
 //Nome do Site
-$core_nome     = "";
+$core_nome     = "NutriService";
 //Descrição do Site
-$core_desc     ="";
+$core_desc     ="Nutrição";
 //Palavras-Chaves sobre o site, use virgulas para separa-las
-$core_keywords =""; 
+$core_keywords ="Nutriservice, nutrição, belém, pará"; 
 //Pasta do projeto
-$core_pasta    ="";
+$core_pasta    ="nutriservice";
 //E-mail para recebimento das mensagens via site
-$core_email    =""; 
+$core_email    ="ed_batista.junior@Hotmail.com"; 
 
 // ========================================== FUNÇÕES ==============================================
 if($core_nome == "" || $core_desc == "" || $core_keywords == "" || $core_pasta == "" || $core_email == ""){
